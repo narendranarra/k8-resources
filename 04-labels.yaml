@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:        
+ name: labels   #name of the pod will be defined under metadata
+ labels:
+  project: roboshop
+  component: mysql
+  tier: backend
+  environment: dev
+spec:           # under spec will define containers.
+ containers:
+ - name: nginx
+   image: nginx

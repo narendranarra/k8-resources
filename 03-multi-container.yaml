@@ -13,4 +13,5 @@ spec:
    image: almalinux:9 
    command: ["sleep", "1000"]
    #almalinux is just os to make the container busy i used sleep.
+   # created 2 containers nginx && almalinux
 
