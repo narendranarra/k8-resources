@@ -8,4 +8,4 @@ spec:
       image: nginx
       envFrom:
         - configMapRef:
-            name: pod-config     # 08-configmap.yaml file refer pod name is pod-config , get the env variables from there.
+            name: pod-config     # refers pod-config , get the env variables from there.
