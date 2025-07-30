@@ -56,7 +56,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    purpose: ebs-static-demo
+    purpose: ebs-static-demo      #matching selectors , using this pvc will add to the pods.
     project: roboshop
   ports:
     - protocol: TCP
